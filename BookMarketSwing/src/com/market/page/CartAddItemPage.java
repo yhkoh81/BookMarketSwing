@@ -67,7 +67,7 @@ public class CartAddItemPage extends JPanel {
 		buttonLabel.setFont(ft);
 		JButton addButton = new JButton();
 		addButton.add(buttonLabel);
-		buttonLabel.add(addButton);
+		buttonPanel.add(addButton);
 	}
 	
 	public static void main(String[] args) {
